@@ -13,7 +13,6 @@ import { MatTabsModule } from '@angular/material/tabs';
 import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatNativeDateModule } from '@angular/material/core'
 import { MAT_DATE_LOCALE } from '@angular/material/core'
-import { MatMomentDateModule } from '@angular/material-moment-adapter'
 import { MAT_SNACK_BAR_DEFAULT_OPTIONS, MatSnackBarModule } from '@angular/material/snack-bar'
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatTableModule } from '@angular/material/table';
@@ -34,7 +33,6 @@ import { MatSortModule } from '@angular/material/sort';
     MatTabsModule,
     MatDatepickerModule,
     MatNativeDateModule,
-    MatMomentDateModule,
     MatSnackBarModule,
     MatDialogModule,
     MatTableModule,
