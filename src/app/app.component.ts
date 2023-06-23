@@ -3,6 +3,8 @@ import { Component, OnInit } from '@angular/core';
 
 import { fromEvent } from "rxjs";
 import { map } from "rxjs/operators";
+import { MenuItem } from './shared/models/menuItem';
+import { menuItens } from './shared/models/menu';
 
 export const SCROLL_CONTAINER = 'mat-sidenav-content'
 export const TEXT_LIMIT = 50
@@ -16,6 +18,7 @@ export class AppComponent implements OnInit  {
   public isSmallScreen:boolean = false;
   public popText = false
   public applyShadow = false
+  public items_menu:MenuItem[] = menuItens;
 
   constructor(private breakpointObserver: BreakpointObserver) { }
 

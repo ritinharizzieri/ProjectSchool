@@ -2,27 +2,27 @@ import { MenuItem } from './menuItem';
 export const menuItens: MenuItem[] = [
   {
     link:'/dashboard',
-    icon: 'fa-chart-line',
+    icon: 'dashboard',
     label: 'Dashboard'
   },
   {
     link:'courses',
-    icon: 'fa-graduation-cap',
+    icon: 'school',
     label: 'Cursos'
   },
   {
     link:'/teachers',
-    icon: 'fa-person-chalkboard',
+    icon: 'collections_bookmark',
     label: 'Professores'
   },
   {
     link:'/students',
-    icon: 'fa-chalkboard-user',
+    icon: 'group',
     label: 'Alunos'
   },
   {
     link:'/support',
-    icon: 'fa-headset',
+    icon: 'info',
     label: 'Suporte'
   },
 ]
