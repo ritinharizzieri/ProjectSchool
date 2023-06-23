@@ -4,7 +4,7 @@ import { RouterModule, Routes } from '@angular/router';
 //ng g m pages/users --route pages/users --module app
 const routes: Routes = [
   {
-    path: 'pages/users',
+    path: 'users',
     loadChildren: () =>
       import('./pages/users/users.module').then(m => m.UsersModule)
   }

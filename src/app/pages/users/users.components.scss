@@ -1,0 +1,30 @@
+.tabs {
+  margin-top: 1em;
+}
+
+.tabs a {
+  font-size: 16px;
+}
+
+.mat-focus-indicator {
+  color: #1e1c1c;
+}
+
+.active-link {
+  background-color: #1e1c1c;
+  color: #1e1c1c;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border: 1px solid #353131;
+  border-bottom: 0px;
+}
+
+mat-icon {
+  margin-right: 5px;
+}
+
+.container {
+  padding: 15px;
+  border: 1px solid #353131;
+  border-top: 0;
+}
