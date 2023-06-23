@@ -7,7 +7,11 @@ const routes: Routes = [
     path: 'users',
     loadChildren: () =>
       import('./pages/users/users.module').then(m => m.UsersModule)
-  }
+  },
+  {
+    path: 'dashboard',
+    loadChildren: () =>
+      import('./pages/dashboard/dashboard.module').then(m => m.DashboardModule) }
 ];
 
 @NgModule({
