@@ -10,4 +10,4 @@ import { MatIconModule } from '@angular/material/icon';
   ],
   providers:[]
 })
-export class DashboardMaterialModule { }
+export class CoursesMaterialModule { }

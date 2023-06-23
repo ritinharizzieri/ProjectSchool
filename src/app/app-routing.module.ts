@@ -11,7 +11,11 @@ const routes: Routes = [
   {
     path: 'dashboard',
     loadChildren: () =>
-      import('./pages/dashboard/dashboard.module').then(m => m.DashboardModule) }
+      import('./pages/dashboard/dashboard.module').then(m => m.DashboardModule) },
+  {
+    path: 'courses',
+    loadChildren: () =>
+      import('./pages/courses/courses.module').then(m => m.CoursesModule) }
 ];
 
 @NgModule({
