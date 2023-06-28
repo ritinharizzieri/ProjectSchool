@@ -1,5 +1,5 @@
 import { BreakpointObserver } from '@angular/cdk/layout';
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, inject } from '@angular/core';
 
 import { fromEvent } from "rxjs";
 import { map } from "rxjs/operators";
@@ -19,8 +19,11 @@ export class AppComponent implements OnInit  {
   public popText = false
   public applyShadow = false
   public items_menu:MenuItem[] = menuItens;
+  private breakpointObserver: BreakpointObserver
 
-  constructor(private breakpointObserver: BreakpointObserver) { }
+  constructor() {
+    this.breakpointObserver = inject(BreakpointObserver)
+   }
 
   ngOnInit(){
     const content = document.getElementsByClassName(SCROLL_CONTAINER)[0];
