@@ -6,7 +6,7 @@ export const menuItens: MenuItem[] = [
     label: 'Dashboard'
   },
   {
-    link:'courses',
+    link:'/courses',
     icon: 'school',
     label: 'Cursos'
   },
