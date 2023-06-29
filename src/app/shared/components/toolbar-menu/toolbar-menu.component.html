@@ -1,1 +1,6 @@
-<p>toolbar-menu works!</p>
+<mat-toolbar
+  class="toolbar-menu"
+  color="secondary"
+  [class.mat-elevation-z4]="shadow">
+  <span *ngIf="popText">{{menuTitle}}</span>
+</mat-toolbar>

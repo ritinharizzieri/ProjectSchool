@@ -3,7 +3,6 @@ import { ToolbarTitleComponent } from './components/toolbar-title/toolbar-title.
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import { FlexLayoutModule } from '@angular/flex-layout';
-import { ToolbarMenuComponent } from './components/toolbar-menu/toolbar-menu.component';
 
 @NgModule({
   imports: [
@@ -13,7 +12,6 @@ import { ToolbarMenuComponent } from './components/toolbar-menu/toolbar-menu.com
   ],
   declarations: [
     ToolbarTitleComponent,
-    ToolbarMenuComponent
   ],
   exports: [
     ToolbarTitleComponent
