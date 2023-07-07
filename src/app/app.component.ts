@@ -19,7 +19,7 @@ export class AppComponent implements OnInit  {
   public isSmallScreen:boolean = false;
   public popText = false
   public applyShadow = false
-  public items_menu:MenuItem[] = menuItens;
+  public items_menu: MenuItem[] = menuItens;
   private breakpointObserver: BreakpointObserver;
   private route: Router;
   public menuName = ''

@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { MenuItem } from '@app/shared/models/menuItem';
 
 @Component({
   selector: 'app-toolbar-menu',
@@ -9,4 +10,5 @@ export class ToolbarMenuComponent {
   @Input() menuTitle: string = '';
   @Input() shadow: boolean = false;
   @Input() popText: boolean = false;
+  @Input() items_menu: MenuItem[] = []
 }
